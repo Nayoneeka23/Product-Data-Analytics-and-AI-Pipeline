@@ -1,0 +1,10 @@
+# Resume evidence and interview explanation
+
+| Supplied resume bullet | Implementation/evidence | Honest scope |
+|---|---|---|
+| Processed 8,494 product records and prepared 8,216 usable entries for exploratory analysis and interactive visualizations of pricing, ratings, and product categories. | Original `analysis.ipynb`; exact cleaning reproduced by `clean_for_analysis`; `reports/validation.json`; additive Streamlit dashboard and standalone HTML chart. | Counts reproduced. Original notebook is preserved, not rerun here. This is descriptive catalog analysis. |
+| Built retrieval-augmented generation (RAG) components using embeddings, FAISS vector search, metadata filtering, and Mistral via Ollama for context-grounded product information retrieval. | Original `rag.py`; additive `product_pipeline.py`, index builder, strict filters, optional Ollama client and search interface. | Components exist. Supplied index structural checks passed. Embedding alignment, live semantic retrieval and live Mistral generation were not verified in this environment because the embedding download was blocked. Context instructions and ID checks do not prove grounding accuracy. |
+
+A clear interview explanation: “I used a product catalog for category, price and brand comparisons. Cleaning kept 8,216 of 8,494 records for EDA. The product-discovery pipeline represents each product as text, embeds it with MiniLM, searches FAISS, applies explicit metadata filters, and optionally asks local Mistral to explain the retrieved products. There are no transaction records, so I do not claim sales or revenue insights. I distinguish implemented components from runtime behavior I have actually verified.”
+
+Before presenting a successful end-to-end demonstration, download the embedding model, verify or rebuild the index, install Mistral, and run the documented search checks with `--with-mistral`. Inspect generated explanations against the CSV. Keep the resulting real report; do not replace missing results with example output.

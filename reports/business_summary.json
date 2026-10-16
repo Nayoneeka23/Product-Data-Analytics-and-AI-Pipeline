@@ -1,0 +1,14 @@
+{
+  "dataset_sha256": "54a7cbfc10d945233148f0b0f2bcbcbff959dcf6ad241ca6f15114cd247556cb",
+  "raw_rows": 8494,
+  "raw_columns": 27,
+  "analysis_rows": 8216,
+  "removed_rows": 278,
+  "duplicate_analysis_rows": 0,
+  "brands": 302,
+  "categories": 9,
+  "median_price_usd": 35.0,
+  "average_rating": 4.194512889483933,
+  "price_rating_pearson_correlation": 0.05673783999653351,
+  "scope": "Static catalog; product means are unweighted; engagement is not sales."
+}

@@ -1,5 +1,8 @@
 .venv/
+venv/
 __pycache__/
-.ipynb_checkpoints/
-.vscode/
-sephora_products.index
+.pytest_cache/
+*.pyc
+.env
+.DS_Store
+# The supplied index is intentionally included (12.44 MiB).

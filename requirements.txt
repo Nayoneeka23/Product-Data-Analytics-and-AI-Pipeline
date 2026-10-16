@@ -1,0 +1,13 @@
+pandas==2.2.3
+numpy==1.26.4
+plotly==6.0.0
+streamlit==1.42.2
+sentence-transformers==3.4.1
+transformers==4.49.0
+faiss-cpu==1.10.0
+requests==2.32.3
+# For CPU-only installation, install the official CPU torch wheel first (README).
+torch==2.6.0
+
+# Compatible with the pinned NumPy and Streamlit versions.
+pyarrow==18.1.0

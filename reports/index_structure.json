@@ -1,0 +1,18 @@
+{
+  "dataset_sha256": "54a7cbfc10d945233148f0b0f2bcbcbff959dcf6ad241ca6f15114cd247556cb",
+  "index_sha256": "826efa90b2fd5f8e7a044f648f9bfb3537815046a8045648c5e92f70dacae544",
+  "index_size_bytes": 13046829,
+  "index_type": "IndexFlatIP",
+  "vectors": 8494,
+  "dimensions": 384,
+  "metric_type": 0,
+  "vector_count_matches_csv": true,
+  "all_vectors_finite": true,
+  "all_vectors_unit_normalized": true,
+  "minimum_norm": 0.9999998807907104,
+  "maximum_norm": 1.0000001192092896,
+  "embedding_alignment": "not_verified; requires freshly encoding product documents",
+  "semantic_search": "not_run",
+  "live_mistral_generation": "not_run",
+  "explanation_grounding_accuracy": "not_measured"
+}

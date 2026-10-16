@@ -1,0 +1,27 @@
+{
+  "dataset_sha256": "54a7cbfc10d945233148f0b0f2bcbcbff959dcf6ad241ca6f15114cd247556cb",
+  "data": {
+    "raw_rows": 8494,
+    "raw_columns": 27,
+    "analysis_rows": 8216,
+    "removed_rows": 278,
+    "duplicate_analysis_rows": 0,
+    "brands": 302,
+    "categories": 9,
+    "median_price_usd": 35.0,
+    "average_rating": 4.194512889483933
+  },
+  "resume_count_checks": {
+    "raw_8494": true,
+    "analysis_8216": true
+  },
+  "index": {
+    "status": "not_checked"
+  },
+  "live_mistral_generation": {
+    "status": "not_run"
+  },
+  "answer_grounding_accuracy": {
+    "status": "not_evaluated"
+  }
+}

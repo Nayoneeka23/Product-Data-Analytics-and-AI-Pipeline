@@ -1,0 +1,10 @@
+{
+  "purpose": "Functional checks, not a relevance or grounding benchmark",
+  "semantic_search": {
+    "status": "blocked_or_failed"
+  },
+  "mistral": {
+    "status": "not_run"
+  },
+  "error": "ValueError: Run python build_index.py --verify-existing, or rebuild the index first"
+}

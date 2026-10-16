@@ -1,0 +1,25 @@
+{
+  "python": "3.12.14",
+  "platform": "linux",
+  "tests": {
+    "tests": 19,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "streamlit_http_health": {
+    "status_code": 200,
+    "body": "ok"
+  },
+  "dashboard_functional_check": "Streamlit AppTest renders metrics, tables and category changes",
+  "dependency_check": "python -m pip check: No broken requirements found",
+  "embedding_download": {
+    "status": "blocked",
+    "host": "huggingface.co",
+    "observed_error": "CONNECT tunnel failed, response 403"
+  },
+  "embedding_alignment": "not_verified",
+  "live_semantic_search": "not_run",
+  "live_mistral_generation": "not_run",
+  "grounding_accuracy": "not_measured"
+}
